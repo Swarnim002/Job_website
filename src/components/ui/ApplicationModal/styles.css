@@ -1,0 +1,56 @@
+
+
+.ApplicationCard{
+     height: 200px;
+     width: 360px;
+     border-radius: 20px;
+     padding: 10px;
+     background-color: white;
+     box-shadow:  0 3px 6px rgba(0, 0, 0, 0.14),  0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+     margin-bottom: 10px;
+}
+
+.upperSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    background-color: #D9EFFF;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+.modalBody{
+    background-color: #A9AFBC;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ h6{
+    margin-bottom: 20px;
+}
+
+.name{
+  flex: 0.9;
+}
+
+.name h5{
+    font-size: 18px;
+}
+
+.lowerSection {
+    margin-top: 20px;
+}
+
+ h6{
+    position: relative;
+    left: 20px;
+  }

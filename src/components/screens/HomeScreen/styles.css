@@ -1,0 +1,58 @@
+.homeScreenContainer{
+    background-image: url(../../../../public/assets/backgroundMedium.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+   height: 200vh;
+   position: relative;
+   
+ }
+
+ .childContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+    margin: 20px;
+    position: relative;
+    left: 100px;
+    width: 85vw;
+ }
+
+ .home{
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+ .homeImg{
+   height: 10px;
+   width: 15px;
+   margin-top: 5px;
+ }
+
+.headings{
+     position: relative;
+     left: 26px;
+    margin-bottom: 30px;
+}
+
+ .headings h4{
+ 
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+ }
+
+ .headings h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+ }
+
+ .jobCardsView{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+

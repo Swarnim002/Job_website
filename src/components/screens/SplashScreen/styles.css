@@ -1,0 +1,163 @@
+.splashContainer{
+  background-image: url(../../../../public/assets/backgroundFinal2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140vh;
+  width: 100vw;
+ 
+}
+
+.upperView {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.getStarted{
+    position: absolute;
+    top: 24px;
+    left: 170px;
+}
+
+
+.getStarted h1 {
+    margin: 0;
+      font-size: 50px;
+      margin-bottom: 30px;
+      color: white;
+}
+
+.getStarted h1 span{
+    color: #43AFFF;
+}
+
+
+.blueBtn{
+   height: 33px;
+   width: 120px;
+   border-width: 0;
+   background-color: #43AFFF;
+   color: #fff;
+}
+
+.imageContainer{
+  flex: 0.6;
+  position: absolute;
+  top: 40px;
+  right: 110px;
+}
+
+.cardsContainer{
+    position: relative;
+    top: 400px;
+    left: 140px;
+    margin-top: 40px;
+}
+
+.cardsContainer h4{
+    font-size: 18px;
+    color: rgb(101, 100, 100);
+}
+
+.cardsView{
+    margin-bottom: 10px;
+    box-shadow:  0 3px 6px rgba(0, 0, 0, 0.14),  0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+    margin-top: 10px;
+}
+
+.childCardContainer{
+    width: 80vw;
+}
+
+
+.lowerView{
+  position: relative;
+  top: 30em;
+  left: 8em;
+width: 80vw;
+height: 20vh;
+}
+
+.childLowerView{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logos{
+    height: 45px;
+    width: 130px;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 1300px) {
+
+    .getStarted h1 {
+        margin-bottom: 18px;
+        font-size: 37px;
+       
+    }
+
+    .blueBtn{
+        height: 40px;
+        width: 120px;
+        border-width: 0;
+        background-color: #43AFFF;
+        color: #fff;
+     }
+
+     .imageContainer{
+        height: 330px;
+        width: 500px;
+      }
+  }
+
+  @media (max-width: 1000px) {
+
+    .splashContainer{
+
+        height: 200vh;
+      
+       
+      }
+    .upperView {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    
+    }
+
+    .cardsContainer{
+        margin-bottom: 10px;
+    }
+
+    .cardsView{
+        margin-bottom: 10px;
+    }
+
+    .getStarted{
+        left: 140px;
+        display: flex;
+        justify-content: space-around;
+        width: 600px;
+    }
+    .getStarted h1 {
+        margin-bottom: 18px;
+        font-size: 40px;
+       
+    }
+
+    .blueBtn{
+       position: relative;
+       top: 40px;
+     }
+
+     .imageContainer{
+        display: none;
+      }
+  }

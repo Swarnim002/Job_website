@@ -1,0 +1,7 @@
+.paginationContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: relative;
+    left: 45%;
+}
