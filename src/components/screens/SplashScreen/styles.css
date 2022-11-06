@@ -2,7 +2,7 @@
   background-image: url(../../../../public/assets/backgroundFinal2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 140vh;
+  height: 150vh;
   width: 100vw;
  
 }
@@ -53,12 +53,16 @@
     top: 400px;
     left: 140px;
     margin-top: 40px;
+    width: 70vw;
 }
 
 .cardsContainer h4{
     font-size: 18px;
-    color: rgb(101, 100, 100);
+     color: #303F60;
+     margin-bottom: 10px;
+     font-weight: bold;
 }
+
 
 .cardsView{
     margin-bottom: 10px;
@@ -80,6 +84,12 @@ width: 80vw;
 height: 20vh;
 }
 
+.lowerView h2 {
+    font-size: 21px;
+    color: #303F60;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .childLowerView{
     display: flex;
     justify-content: space-between;

@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.css";
 import "../LoginScreen/styles.css";
 import axios from 'axios';
-import HomeScreen from "../HomeScreen";
 import { useNavigate } from 'react-router-dom';
 import { NavbarView } from "../../ui/Navbar";
 
@@ -15,31 +14,7 @@ const LoginScreen = () => {
 const navigate = useNavigate();  
 const [email, setEmail] = React.useState('');
 const [password, setPassword] = React.useState('');
-const [success, setSuccess] = React.useState(false);
-const [isValidEmail, setIsValidEmail] = React.useState(true);
-const [isValidPassword, setIsValidPassword] = React.useState(true);
 
-// function handleEmailValidation(val) {
-//      setEmail(val.target.value)
-//   if (val.length === 0 && val.trim().length >= 4) {
-//     setEmail(...email, val)
-//     setIsValidEmail(false);
-//     // alert('not  valid')
-//   }  else {
-//     setEmail(...email, val)
-//     setIsValidEmail(true);
-//   }
-// }
-
-
-// // function PasswordValidation(password) {
-  
-// //   if (password.length === 0 && password.length <= 5) {
-// //     setIsValidPassword(false);
-// //   }  else {
-// //    setIsValidPassword(true);
-// //   }
-// // }
 
 
 const handleSubmit = (e) => {

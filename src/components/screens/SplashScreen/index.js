@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles.css";
 import Card from "react-bootstrap/Card";
-// import SplashImage from '../../../../public/assets/SplashImage.png';
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { NavbarView } from "../../ui/Navbar";
@@ -29,6 +27,7 @@ const SplashScreen = () => {
           className="imageContainer"
           height={"400px"}
           width="580px"
+          alt="splash img"
         />
          </div>
         <div className="cardsContainer">
@@ -77,16 +76,17 @@ const SplashScreen = () => {
             
 
             <div className="lowerView">
+            <h2>Companies who trust us</h2>
               <div className="childLowerView">
-            <img src="/assets/solaytic.png"  className="logos"/>
-            <img src="/assets/ideaa.png"  className="logos"/>
-            <img src="/assets/kanba.png"  className="logos"/>
-            <img src="/assets/lighting.png"  className="logos"/>
+            <img src="/assets/solaytic.png"  className="logos" alt="logo img"/>
+            <img src="/assets/ideaa.png"  className="logos" alt="logo img"/>
+            <img src="/assets/kanba.png"  className="logos" alt="logo img"/>
+            <img src="/assets/lighting.png"  className="logos" alt="logo img"/>
             </div>
             <div className="childLowerView">
-            <img src="/assets/liva.png"  className="logos"/>
-            <img src="/assets/goldline.png"  className="logos"/>
-            <img src="/assets/ztos.png"  className="logos"/>
+            <img src="/assets/liva.png"  className="logos" alt="logo img"/>
+            <img src="/assets/goldline.png"  className="logos" alt="logo img"/>
+            <img src="/assets/ztos.png"  className="logos" alt="logo img"/>
             </div>
             </div>
       

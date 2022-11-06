@@ -84,7 +84,7 @@ function ApplicationModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered>
         <Modal.Header className='ModalView'>
-          <Modal.Title>Applications for this jon</Modal.Title>
+          <Modal.Title>Applications for this job</Modal.Title>
           <hr />
         </Modal.Header>
         <h6>Total 35 applications</h6>

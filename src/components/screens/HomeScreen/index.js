@@ -14,19 +14,16 @@ const HomeScreen = () => {
   const navigate = useNavigate();
   const [cards, setCards] = React.useState([]);
   const [show, setShow] = React.useState(false);
-  const [pageNumber, setPageNumber] = React.useState(1);
+
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const nextPage = () => {
-    setPageNumber(2);
-  }
 
  const getCardsData= async (e) => {
   const token = localStorage.getItem('token');
   try {
-    const res = await axios.get(`https://jobs-api.squareboat.info/api/v1/recruiters/jobs?page=${pageNumber}`, { 'headers': { 'Authorization': token } })
+    const res = await axios.get(`https://jobs-api.squareboat.info/api/v1/recruiters/jobs`, { 'headers': { 'Authorization': token } })
     const cardsArray = await res.data.data.data;
     setCards(...cards, cardsArray) 
   } catch (error) {

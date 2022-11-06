@@ -24,14 +24,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    border: 1px solid rgb(57, 130, 213);
    
 }
 .modalBody{
-    background-color: #A9AFBC;
+    background-color: #eaecef;
     margin: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 20px;
 }
 
  h6{
@@ -48,9 +50,10 @@
 
 .lowerSection {
     margin-top: 20px;
+    margin-left: 10px;
 }
 
  h6{
     position: relative;
-    left: 20px;
+    left: 4px;
   }

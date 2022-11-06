@@ -19,7 +19,7 @@ const CardContainer = (props) => {
               {props.description}
             </Card.Text>
             <div className='location'>
-              <img src='assets/location.png' className='locationImg'/>
+              <img src='assets/location.png' className='locationImg' alt='location'/>
               <h4>{props.location}</h4>
               <button onClick={props.onClick}><h5>View Applications</h5></button>
             </div>
